@@ -4,7 +4,7 @@ import Foundation
 public struct AnyDataEndpoint: Endpoint {
     public var method: Method
     public var path: Path
-    public var queries: [Query]
+    public var queries: Queries
     public var headers: [Header]
     public var cachePolicy: URLRequest.CachePolicy
     public var timeout: TimeInterval
